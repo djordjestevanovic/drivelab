@@ -1,0 +1,230 @@
+/* General styles start */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    color:#fff;
+}
+.drive-button{
+    width:auto;
+    background-color:#F15A29;
+    color:#fff;
+    text-transform:uppercase;
+    border:none;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4px;
+    display:inline-block;
+    text-decoration: none !important;
+    vertical-align: middle;
+    padding: 15px 30px;
+}
+.drive-button span{
+    display:inline-block;;
+}
+.drive-button:hover{
+    color:#000;
+}
+/* General styles end */
+
+/*Navigation styles start*/
+.drive-nav ul li a{
+    padding: 10px 15px 10px 15px !important;
+    line-height: 28px;
+    font-size: 18px;
+}
+.drive-nav ul li:last-child a{
+    padding-right:50px !important;
+}
+.logo{
+    padding:20px 0 20px 10px !important;
+}
+/*Navigation styles end*/
+
+/*Content styles start */
+
+/* Section title styles start */
+.section-title {
+    margin-top:100px;
+    margin-bottom:60px;
+}
+.section-title h1 {
+    font-weight: 600;
+    line-height: 70px;
+    font-size: 60px;
+    text-align:center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.section-title h1::before,.section-title h1::after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: white;
+}
+.section-title h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+/* Section title styles end */
+.content-wrapper{
+    position:relative;
+}
+canvas{
+    background-color: #151515;
+    z-index:1;
+    display:block;
+}
+.canvas-section{
+    position: absolute;
+    z-index:2;
+    left: 408px;
+    top: 135px;
+}
+.canvas-section h1{
+    font-weight: 600;
+    line-height: 70px;
+    font-size: 60px;
+}
+.canvas-section h3{
+    line-height: 28px;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top:25px;
+}
+.canvas-section .drive-button {
+    margin-top:40px;
+}
+.recent-news-section{
+    background-color:#F15A29;
+}
+
+/* Standard post styles start */
+.drive-post {
+    background: #FFFFFF;
+}
+.drive-post-image{
+    position:relative;
+}
+.drive-post-image img{
+    width:100%;
+}
+.drive-post-category{
+    position: absolute;
+    background-color:#000;
+    left:-2px;
+    top:36px;
+}
+.drive-post-category span{
+    color:#fff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding:13px 32px 13px 20px;
+    display:block;
+}
+.drive-post-info {
+    padding:35px 38px 12px 38px;
+}
+.drive-post-info h4{
+    font-weight: bold;
+    font-size: 19px;
+    color: #1F2041;
+}
+.drive-post-info .fa-clock {
+    color:rgba(31, 32, 65, 0.5);
+    font-size:24px;
+    margin-right:12px;
+}
+.drive-post-info .date {
+    margin: 12px 0px 20px 4px;
+}
+.drive-post-info .date span {
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(31, 32, 65, 0.5);
+    font-weight:bold;
+    vertical-align: top;
+}
+.drive-post-info p {
+    color: rgba(31, 32, 65, 0.75);
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 14px;
+}
+/* Standard post styles end */
+.see-more-news{
+    width:100%;
+    text-align:center;
+}
+.see-more-news .drive-button{
+    margin: 50px 0;
+    background-color:#191717;
+}
+
+/* About us section styles start */
+.about-us-section{
+    background-image:url(../images/car-background.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.about-us-section .section-title h1::before, .about-us-section .section-title h1::after {
+    background-color:#191717;
+}
+.about-us-section .section-title h1{
+    color:#191717;
+}
+.about-us-section .xyz-circle {
+    border-radius: 50%;
+    width:133px;
+    height:133px;
+    background-color:#191717;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top:50px;
+    margin-bottom:80px;
+}
+.about-us-section .xyz-circle span{
+    font-weight: bold;
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #F15A29;
+    display:inline-block;
+    margin-top:20px;
+    line-height:50px;
+}
+.about-us-section .xyz-circle p{
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+.about-us-section .drive-button{
+    background-color:#191717;
+    width:215px;
+    margin: 50px 0;
+}
+/* About us section styles end */
+/* Projects styles start */
+.projects-section{
+    background-color:#151515;
+}
+/*Projects styles end */
+/* Content styles end */
