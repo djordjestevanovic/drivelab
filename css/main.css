@@ -262,6 +262,9 @@ canvas{
 .videos-section .video-item{
     position:relative;
 }
+.videos-section .video-item img{
+    width:100%;
+}
 .videos-section .video-info{
     position: absolute;
     bottom:20px;
@@ -292,6 +295,20 @@ canvas{
 }
 .education-section .section-title h1{
     color:#191717;
+}
+.education-section {
+    background-image:url(../images/education-bckg.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.education-section p{
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 14px;
+}
+.education-section p.orange{
+    color:#F15A29;
 }
 /*Education section styles end*/
 /* Content styles end */
