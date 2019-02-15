@@ -55,7 +55,6 @@ h1{
 }
 .section-title h1 {
     font-weight: 600;
-    line-height: 70px;
     font-size: 60px;
     text-align:center;
     position: relative;
@@ -142,15 +141,15 @@ canvas{
     font-size: 19px;
     color: #1F2041;
 }
-.drive-post-info .fa-clock {
+.fa-clock {
     color:rgba(31, 32, 65, 0.5);
     font-size:24px;
     margin-right:12px;
 }
-.drive-post-info .date {
+.date {
     margin: 12px 0px 20px 4px;
 }
-.drive-post-info .date span {
+.date span {
     line-height: 24px;
     font-size: 14px;
     color: rgba(31, 32, 65, 0.5);
@@ -225,6 +224,31 @@ canvas{
 /* Projects styles start */
 .projects-section{
     background-color:#151515;
+}
+.projects-section .project-item{
+    position:relative;
+}
+.projects-section .project-info{
+    position: absolute;
+    bottom:20px;
+    left:40px;
+    width:80%;
+}
+
+.projects-section .project-info h4{
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+}
+.projects-section .date span{
+    color:#C8C8C8;
+}
+.projects-section .date .fa-clock{
+    color:#C8C8C8;
+}
+.projects-section .drive-button{
+    background-color:#F15A29;
+    width:215px;
 }
 /*Projects styles end */
 /* Content styles end */
