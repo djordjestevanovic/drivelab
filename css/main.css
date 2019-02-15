@@ -250,5 +250,48 @@ canvas{
     background-color:#F15A29;
     width:215px;
 }
+.projects-section .project-item img{
+    width:100%;
+}
 /*Projects styles end */
+
+/*Videos section styles start */
+.videos-section{
+    background-color:#F15A29;
+}
+.videos-section .video-item{
+    position:relative;
+}
+.videos-section .video-info{
+    position: absolute;
+    bottom:20px;
+    left:40px;
+    width:80%;
+}
+
+.videos-section .video-info h4{
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+}
+.videos-section .drive-button{
+    background-color:#F15A29;
+    width:215px;
+}
+.videos-section .project-item img{
+    width:100%;
+}
+.videos-section .drive-button{
+    background-color:#191717;
+}
+/*Videos section styles end*/
+
+/*Education section styles start*/
+.education-section .section-title h1::before, .education-section .section-title h1::after {
+    background-color:#191717;
+}
+.education-section .section-title h1{
+    color:#191717;
+}
+/*Education section styles end*/
 /* Content styles end */
