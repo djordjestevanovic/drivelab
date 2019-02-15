@@ -115,6 +115,7 @@ canvas{
 /* Standard post styles start */
 .drive-post {
     background: #FFFFFF;
+    margin-bottom:15px;
 }
 .drive-post-image{
     position:relative;
