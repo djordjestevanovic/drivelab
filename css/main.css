@@ -5,6 +5,9 @@
     box-sizing:border-box;
     font-family: 'Fira Sans', sans-serif;
 }
+a {
+    text-decoration:none !important;
+}
 h1{
     color:#fff;
 }
@@ -309,6 +312,9 @@ canvas{
 }
 .education-section p.orange{
     color:#F15A29;
+}
+.education-section .drive-button {
+    margin-top:100px;
 }
 /*Education section styles end*/
 /* Content styles end */
