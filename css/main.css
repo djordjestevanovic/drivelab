@@ -36,6 +36,17 @@ h1{
 /* General styles end */
 
 /*Navigation styles start*/
+nav.drive-nav {
+    background-color:#fff;
+    padding: 23px 16px 23px 16px;
+    transition: padding .5s;
+}
+nav.drive-nav.scrolled-nav{
+    padding:4px 16px 4px 16px;
+}
+.drive-nav ul li{
+    margin:15px 0 15px 0;
+}
 .drive-nav ul li a{
     padding: 10px 15px 10px 15px !important;
     line-height: 28px;
@@ -94,7 +105,7 @@ canvas{
     top: 135px;
 }
 .canvas-section h1{
-    font-weight: 600;
+    font-weight: 800;
     line-height: 70px;
     font-size: 60px;
 }
@@ -315,7 +326,34 @@ canvas{
     color:#F15A29;
 }
 .education-section .drive-button {
-    margin-top:100px;
+    margin: 100px 0 110px 0;
 }
 /*Education section styles end*/
+
+/*Publications-talks-section styles start */
+.publications-talks-section .publications-column {
+    background-image:url(../images/publications.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.publications-talks-section .rectangle{
+    padding: 85px 70px 20px;
+}
+.publications-talks-section .rectangle h3 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color:#FFF;
+    text-transform:uppercase;
+    text-align:center;
+    border: 2px solid #FFFFFF;
+    padding:100px;
+}
+.publications-talks-section .talks-column h3 {
+    border: 2px solid #F15A29;
+    color:#F15A29;
+}
+/*Publications-talks-section styles end */
+
 /* Content styles end */
