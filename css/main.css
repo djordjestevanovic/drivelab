@@ -189,10 +189,11 @@ canvas{
 
 /* About us section styles start */
 .about-us-section{
-    background-image:url(../images/car-background.png);
+    background-image:url(../images/car-parallax.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size:cover;
 }
 .about-us-section .section-title h1::before, .about-us-section .section-title h1::after {
     background-color:#191717;
@@ -356,4 +357,15 @@ canvas{
 }
 /*Publications-talks-section styles end */
 
+/*Talks page styles start */
+.talks .talks-section{
+    background-color:#0E0E0E;
+}
+/*Talks page styles end */
+
+/*News page styles start */
+.news .news-section{
+    background-color:#0E0E0E;
+}
+/*News page styles end */
 /* Content styles end */
