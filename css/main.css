@@ -44,9 +44,6 @@ nav.drive-nav {
 nav.drive-nav.scrolled-nav{
     padding:4px 16px 4px 16px;
 }
-.drive-nav ul li{
-    margin:15px 0 15px 0;
-}
 .drive-nav ul li a{
     padding: 10px 15px 10px 15px !important;
     line-height: 28px;
@@ -97,6 +94,7 @@ canvas{
     background-color: #151515;
     z-index:1;
     display:block;
+    width:100%;
 }
 .canvas-section{
     position: absolute;
