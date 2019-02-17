@@ -11,7 +11,13 @@
 
     .section-title h1 {
         font-size:40px;
-    } 
+    }
+    .publications-talks-section .rectangle h3 {
+        width:100%;
+    }
+    .publications-talks-section .rectangle{
+        padding:85px 47px 20px;
+    }
 }
 
 @media screen and (min-width:480px) and (max-width:1024px){

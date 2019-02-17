@@ -330,11 +330,16 @@ canvas{
 /*Education section styles end*/
 
 /*Publications-talks-section styles start */
-.publications-talks-section .publications-column {
+.publications-talks-section .publications-column, .publications-talks-section .talks-column  {
     background-image:url(../images/publications.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
+    transition: .5s;
+}
+.publications-talks-section .talks-column:hover{
+    background-image:linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(../images/publications.png);
+
 }
 .publications-talks-section .rectangle{
     padding: 85px 70px 20px;
@@ -347,9 +352,11 @@ canvas{
     text-transform:uppercase;
     text-align:center;
     border: 2px solid #FFFFFF;
-    padding:100px;
+    padding:118px 0 118px 0;
+    width:66%;
+    margin:0 auto;
 }
-.publications-talks-section .talks-column h3 {
+.publications-talks-section .publications-column h3 {
     border: 2px solid #F15A29;
     color:#F15A29;
 }
