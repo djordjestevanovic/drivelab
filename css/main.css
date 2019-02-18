@@ -5,6 +5,10 @@
     box-sizing:border-box;
     font-family: 'Fira Sans', sans-serif;
 }
+input:focus { 
+    outline: none !important;
+    border-color: #F15A29;
+}
 a {
     text-decoration:none !important;
 }
@@ -128,6 +132,7 @@ canvas{
 }
 .drive-post-image{
     position:relative;
+    background-color:#F15A29;
 }
 .drive-post-image img{
     width:100%;
@@ -232,7 +237,7 @@ canvas{
 .about-us-section .drive-button{
     background-color:#191717;
     width:215px;
-    margin: 50px 0;
+    margin: 50px 0 140px 0;
 }
 /* About us section styles end */
 /* Projects styles start */
@@ -330,19 +335,24 @@ canvas{
 /*Education section styles end*/
 
 /*Publications-talks-section styles start */
+.publications-talks-section{
+    background-color:#151515;
+}
 .publications-talks-section .publications-column, .publications-talks-section .talks-column  {
     background-image:url(../images/publications.png);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
-    transition: .5s;
 }
 .publications-talks-section .talks-column:hover{
     background-image:linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(../images/publications.png);
 
 }
+.publications-talks-section .publications-column:hover{
+    background-image:linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(../images/publications.png);
+}
 .publications-talks-section .rectangle{
-    padding: 85px 70px 20px;
+    padding: 85px 70px 85px 0;
 }
 .publications-talks-section .rectangle h3 {
     font-weight: 500;
@@ -364,13 +374,210 @@ canvas{
 
 /*Talks page styles start */
 .talks .talks-section{
-    background-color:#0E0E0E;
+    background-color:#151515;
+}
+.talks .drive-post-image{
+    background-color:#151515;
 }
 /*Talks page styles end */
 
 /*News page styles start */
 .news .news-section{
-    background-color:#0E0E0E;
+    background-color:#151515;
+}
+.news .drive-post-image{
+    background-color:#151515;
 }
 /*News page styles end */
 /* Content styles end */
+
+/*Footer styles start*/
+footer{
+    background-color:#151515;
+}
+footer .footer-info-section {
+    margin:71px 0 0 47px;
+    padding-right:24px;
+    
+}
+footer .footer-info-section::after{
+    background-color:rgba(255, 255, 255, 0.75);
+    content: "";
+    display: block;
+    height: 440px;
+    position: absolute;
+    right: 0;
+    top: 33%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    width: 1px;
+}
+footer .footer-info-section img {
+    margin-bottom:47px;
+}
+footer .footer-info-section p{
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom:47px;
+}
+footer .footer-info-section .contact-info-with-icon{
+    display:flex;
+}
+footer .footer-info-section ul {
+    list-style-type: none;
+}
+footer .footer-info-section .contact-second {
+    margin-left:28px;
+}
+footer .footer-info-section ul li {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom:23px;
+    margin-top:23px;
+}
+footer .footer-info-section ul li span {
+    margin-left:17px;
+}
+footer .footer-info-section ul li i {
+    font-size:20px;
+}
+footer .footer-info-section .explore-more{
+    font-weight: bold;
+    line-height: 44px;
+    font-size: 32px;
+    color: #F15A29;
+}
+footer nav.footer-nav{
+    margin-bottom:165px;
+}
+footer nav.footer-nav:after{
+    background-color:rgba(255, 255, 255, 0.75);
+    content: "";
+    display: block;
+    height: 87px;
+    position: absolute;
+    right: 40px;
+    top: 76.5%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    width: 1px;
+}
+footer nav.footer-nav ul {
+    display:flex;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    width:425px;
+}
+footer nav.footer-nav ul li{
+    position:relative;
+}
+footer nav.footer-nav ul li::after {
+    background-color:rgba(255, 255, 255, 0.75);
+    content: "";
+    display: block;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    width: 1px;
+}
+footer nav.footer-nav ul li:last-child::after{
+    display:none;
+}
+footer nav.footer-nav ul li a {
+    padding: 0px 8px 0px 8px;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+}
+footer nav.footer-nav ul li:first-child a{
+    padding:0px 8px 0 0;
+}
+footer .footer-form-section{
+    margin-top:87px;
+}
+footer .footer-form-section form {
+    display:flex;
+    flex-direction: column;
+}
+footer .footer-form-section form input{
+    margin-bottom:21px;
+    background-color:#151515;
+    height:50px;
+}
+footer .footer-form-section form input[name="_description"]{
+    height:239px;
+}
+footer .footer-form-section form input[type="submit"]{
+    width:122px;
+    align-self:flex-end;
+    color:#fff;
+}
+footer .drive-copyright {
+    background-color:#F15A29;
+    color:#fff;
+    text-align:center;
+
+}
+footer .drive-copyright p{
+    margin-bottom:0;
+    padding: 25px 0;
+}
+footer .footer-social-network-section {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    align-items: center;
+    position:relative;
+    right:86px;
+    margin-top:58px;
+    width:120%;
+}
+span.helper {
+    height:100%;
+    display:inline-block;
+    vertical-align: middle;
+}
+footer .footer-social-network-section .logo-clemson-holder{
+    position:relative;
+}
+footer .footer-social-network-section .logo-clemson-holder:after{
+    background-color:rgba(255, 255, 255, 0.75);
+    content: "";
+    display: block;
+    height: 87px;
+    position: absolute;
+    right: -30px;
+    top: 74%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+    width: 1px;
+}
+footer .footer-social-network-section .logo-clemson-holder img, footer .footer-social-network-section .social-icon img{
+    vertical-align: bottom;
+}
+footer .footer-social-network-section .social-icons .linkedin{
+    margin-left:20px;
+}
+
+/*Footer styles end*/
