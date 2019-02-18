@@ -62,3 +62,9 @@
     }
 /* title image responsive styles end  */
 }
+
+@media screen and (min-width:1024px){
+    .page-list .row {
+        padding-bottom:40px;
+    }
+}

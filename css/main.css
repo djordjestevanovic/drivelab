@@ -280,6 +280,7 @@ canvas{
 }
 .videos-section .video-item{
     position:relative;
+    margin-bottom:10px;
 }
 .videos-section .video-item img{
     width:100%;
@@ -289,6 +290,23 @@ canvas{
     bottom:20px;
     left:40px;
     width:80%;
+}
+.videos-section .video-play{
+    width:45px;
+    height:45px;
+    background-color:#F15A29;
+    border: 2px solid #fff;
+    position:absolute;
+    border-radius:50%;
+    right:38px;
+    top:38px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:10px;
+}
+.videos-section .video-play .fa-play{
+    color:#fff;
 }
 
 .videos-section .video-info h4{
@@ -380,6 +398,7 @@ canvas{
     display: inline-block;
     width: 100%;
     vertical-align: middle;
+    background-size:cover;
 }
 .drive-title-holder .drive-title-image{
     display:none;
@@ -434,6 +453,22 @@ canvas{
     background-color:#151515;
 }
 /*News page styles end */
+/*Videos page styles start*/
+.videos .drive-title-holder{
+    background-image: url(../images/videos-title-image.jpg)
+}
+.videos .videos-section{
+    background-color:#151515;
+}
+/*Videos page styles end*/
+/*Videos page styles start*/
+.projects .drive-title-holder{
+    background-image: url(../images/projects-title-image.jpg)
+}
+.projects .projects-section{
+    background-color:#151515;
+}
+/*Videos page styles end*/
 /* Content styles end */
 
 /*Footer styles start*/
