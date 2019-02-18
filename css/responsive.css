@@ -36,3 +36,29 @@
         left:151px
     }
 }
+
+@media screen and (max-width:1024px){
+
+/* title image responsive styles start */
+    .drive-title-holder {
+        height: auto;
+        background-image: none !important;
+    }
+    .drive-title-holder .drive-title-image{
+        display:block;
+    }
+    .drive-title-holder .drive-title-wrapper{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 100% !important;
+        position: absolute;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .page-list{
+        padding-top:20px;
+    }
+/* title image responsive styles end  */
+}

@@ -371,6 +371,45 @@ canvas{
     color:#F15A29;
 }
 /*Publications-talks-section styles end */
+/*Single page styles start*/
+.drive-title-holder{
+    height: 300px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+.drive-title-holder .drive-title-image{
+    display:none;
+}
+.drive-title-holder .drive-title-image img{
+    display:block;
+    width: 100%;
+}
+.drive-title-wrapper{
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+.drive-title-inner{
+    position: relative;
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+.drive-page-title.entry-title{
+    text-transform: capitalize;
+}
+.page-list {
+    padding-top:117px;
+}
+/*Single page styles end*/
 
 /*Talks page styles start */
 .talks .talks-section{
@@ -379,9 +418,15 @@ canvas{
 .talks .drive-post-image{
     background-color:#151515;
 }
+.talks .drive-title-holder{
+    background-image: url(../images/talks-title-image.jpg)
+}
 /*Talks page styles end */
 
 /*News page styles start */
+.news .drive-title-holder{
+    background-image: url(../images/news-title-image.jpg)
+}
 .news .news-section{
     background-color:#151515;
 }
@@ -547,7 +592,6 @@ footer .footer-social-network-section {
     position:relative;
     right:86px;
     margin-top:58px;
-    width:120%;
 }
 span.helper {
     height:100%;
@@ -564,7 +608,7 @@ footer .footer-social-network-section .logo-clemson-holder:after{
     height: 87px;
     position: absolute;
     right: -30px;
-    top: 74%;
+    top: 57%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -579,5 +623,4 @@ footer .footer-social-network-section .logo-clemson-holder img, footer .footer-s
 footer .footer-social-network-section .social-icons .linkedin{
     margin-left:20px;
 }
-
 /*Footer styles end*/
