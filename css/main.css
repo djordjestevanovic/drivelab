@@ -486,6 +486,76 @@ canvas{
     background:#0E0E0E;
 }
 /*Videos page styles end*/
+/*Publications styles start */
+.publications .drive-title-holder{
+    background-image: url(../images/publications-title-image.jpg)
+}
+.publications .publications-section{
+    background-color:#0E0E0E;
+}
+.publications .drive-post-image{
+    background-color:#0E0E0E;
+}
+.publications .publications-section{
+    padding-top:66px;
+}
+.publications .section-title {
+    margin-top:0;
+}
+.publications .publications-section .drive-button{
+    width:143px;
+    padding:15px 10px;
+    display:inline-block;
+}
+.publications .publications-section .drive-button:first-child{
+    margin-right:30px;
+}
+.publications .publications-section .drive-button:last-child{
+    background-color:#191717;
+}
+.publications .publications-section .drive-buttons-holder{
+    text-align:center;
+    padding-bottom:67px;
+}
+/*Publications styles end */
+/*FAQ page styles start */
+.faq .faq-section{
+    background-color:#0E0E0E;
+}
+.faq .drive-title-holder{
+    background-image: url(../images/faq-title-image.jpg)
+}
+.faq .drive-page-title.entry-title {
+    text-transform:uppercase;
+}
+.faq .drive-accordion{
+    width:100%;
+}
+.faq .drive-accordion .drive-card{
+    margin-bottom:2px;
+}
+.faq .faq-section .drive-accordion .drive-card .text{
+    background-color:#fff;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 14px;    
+    color: #191717;
+}
+.faq .faq-section .drive-accordion .drive-card h5{
+    margin:0;
+}
+.faq .drive-accordion .drive-card .drive-card-header a{
+    background-color:#191717; 
+    width:100%;
+    display:block;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding:10px 40px;
+}
+.faq .drive-accordion .drive-card .drive-card-header a.collapsed{
+    background-color:#191717; 
+}
+/*FAQ page styles end */
 /* Content styles end */
 
 /*Footer styles start*/

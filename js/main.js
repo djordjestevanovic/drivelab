@@ -9,7 +9,8 @@ $(document).ready(function(){
       } else if (scrollTop < 100) {
         $('.drive-nav').removeClass('scrolled-nav');
       } 
-      
-    }); 
-    
+
+    });
+    var acc = $('.drive-accordion');
+  
   });
