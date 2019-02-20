@@ -11,6 +11,6 @@ $(document).ready(function(){
       } 
 
     });
-    var acc = $('.drive-accordion');
-  
+    
+    
   });

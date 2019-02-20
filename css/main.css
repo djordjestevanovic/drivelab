@@ -517,10 +517,15 @@ canvas{
     text-align:center;
     padding-bottom:67px;
 }
+.faq .drive-accordion .drive-card .drive-card-header-orange.drive-card-header a { 
+    background-color:#F15A29;
+}
 /*Publications styles end */
 /*FAQ page styles start */
 .faq .faq-section{
     background-color:#0E0E0E;
+    padding-top:90px;
+    padding-bottom:135px;
 }
 .faq .drive-title-holder{
     background-image: url(../images/faq-title-image.jpg)
@@ -534,12 +539,12 @@ canvas{
 .faq .drive-accordion .drive-card{
     margin-bottom:2px;
 }
-.faq .faq-section .drive-accordion .drive-card .text{
+.faq .faq-section .drive-accordion .drive-card .drive-card-text{
     background-color:#fff;
-    font-weight: bold;
     line-height: 24px;
     font-size: 14px;    
     color: #191717;
+    font-weight:bold;
 }
 .faq .faq-section .drive-accordion .drive-card h5{
     margin:0;
@@ -552,8 +557,14 @@ canvas{
     color: #FFFFFF;
     padding:10px 40px;
 }
-.faq .drive-accordion .drive-card .drive-card-header a.collapsed{
-    background-color:#191717; 
+.faq .drive-accordion .drive-card .drive-card-header a[aria-expanded='true'] {
+    background-color: #F15A29;
+}
+.faq .drive-accordion .drive-card .drive-card-text p:last-child {
+    margin-bottom:0;
+}
+.faq .drive-accordion .drive-card .drive-card-text-holder{
+    padding:80px 100px;
 }
 /*FAQ page styles end */
 /* Content styles end */
