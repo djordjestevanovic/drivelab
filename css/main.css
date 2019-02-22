@@ -567,6 +567,97 @@ canvas{
     padding:80px 100px;
 }
 /*FAQ page styles end */
+/* About us page styles start*/
+.about-us .about-us-background {
+    background-image:url(../images/about-us.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:520px;
+}
+.about-us .about-us-title h1 {
+    font-weight: 600;
+    line-height: 48px;
+    font-size: 46px;
+    padding-top:110px;
+}
+.about-us .about-us-title h3{
+    line-height: 28px;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-top:37px;
+}
+.about-us .about-us-section-twopar{
+    background: #E9E2D1;
+    background-image:url(../images/Group.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    padding: 80px 0;
+}
+.about-us .about-us-section-twopar p {
+    line-height: 28px;
+    font-size: 18px;
+    text-align: justify;
+}
+.about-us .twopar-title {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 48px;
+    font-size: 48px;
+    text-align: center;
+    color: #191717;
+    padding: 60px 0;
+}
+.about-us .about-us-section-twopar .see-more-news .drive-button {
+    background-color:#F15A29;
+}
+.about-us .people-holder .people-image img{
+    width:100%;
+}
+.about-us .people-holder .people-info-holder {
+    margin-top:19px;
+}
+.about-us .people-holder .people-info-holder p{
+    margin-top:19px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top:15px;
+}
+.about-us .people-holder .people-info-holder h4{
+    font-size: 19px;
+    font-weight:bold;
+    color: #FFFFFF;
+}
+.about-us .people-section{
+    background-color:#0E0E0E;
+}
+.about-us .people-section .see-more-news .drive-button {
+    width:auto;
+    background-color:#F15A29;
+}
+.publications-list-section{
+    background-color:#332F2D;
+}
+.publications-list-section .publication-item-info{
+    margin-top:37px;
+}
+.publications-list-section .publication-list-item-image img{
+    width:221px;
+}
+.publications-list-section .publication-item-info h4{
+    font-size: 19px;
+    color: #FFFFFF;
+}
+.publications-list-section .publication-item-info p {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top:37px;
+    margin-bottom:80px;
+}
+/* About us page styles end */
 /* Content styles end */
 
 /*Footer styles start*/
