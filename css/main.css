@@ -204,6 +204,9 @@ canvas{
 .about-us-section .section-title h1{
     color:#191717;
 }
+.about-us-section .circle-holder {
+    display:inline-block;
+}
 .about-us-section .xyz-circle {
     border-radius: 50%;
     width:133px;

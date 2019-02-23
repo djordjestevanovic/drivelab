@@ -52,6 +52,9 @@
     footer .footer-social-network-section img{
         width:80%;
     }
+    footer .footer-info-section::after {
+        display:none;
+    }
     /* Footer responsive styles end */
 }
 
