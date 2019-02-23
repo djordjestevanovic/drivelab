@@ -341,6 +341,7 @@ canvas{
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
+    background-attachment: fixed;
 }
 .education-section p{
     font-weight: bold;
