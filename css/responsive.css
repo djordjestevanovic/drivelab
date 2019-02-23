@@ -18,6 +18,41 @@
     .publications-talks-section .rectangle{
         padding:85px 47px 20px;
     }
+    /* Footer responsive styles start */
+    footer .footer-info-section {
+        margin:0;
+    }
+    footer .footer-info-section .footer-info-holder {
+        margin:40px;
+    }
+    footer .footer-info-section img {
+        width:80%;
+    }
+    footer nav.footer-nav::after {
+        display:none;
+    }
+    footer nav.footer-nav {
+        display:none;
+    }
+    footer .footer-info-section .explore-more {
+        margin-bottom:10px;
+    }
+    footer .footer-form-section {
+        margin-top: 10px;
+    }
+    footer .footer-social-network-section {
+        margin-top:10px;
+    }
+    footer .footer-social-network-section .logo-clemson-holder:after {
+        display:none;
+    }
+    footer .footer-social-network-section {
+        right:0;
+    }
+    footer .footer-social-network-section img{
+        width:80%;
+    }
+    /* Footer responsive styles end */
 }
 
 @media screen and (min-width:480px) and (max-width:1024px){
