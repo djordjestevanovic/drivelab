@@ -662,6 +662,14 @@ canvas{
     margin-bottom:80px;
 }
 /* About us page styles end */
+/*About us people styles start */
+.about-us .drive-title-holder {
+    background-image:url(../images/talks-title-image.jpg);
+}
+
+
+/*About us people styles end */
+
 /* Content styles end */
 
 /*Footer styles start*/
