@@ -283,6 +283,7 @@ canvas{
 }
 .projects-section .project-item img{
     width:100%;
+    border:1px solid #fff;
 }
 /*Projects styles end */
 
@@ -691,7 +692,7 @@ canvas{
     top: -72px;
     left:2.5em;
 }
-.news-single .single-text-holder{
+.news-single .news-single-text-holder{
     font-weight: 500;
     line-height: 24px;
     font-size: 14px;
@@ -699,8 +700,48 @@ canvas{
     margin-bottom:119px;
 }
 /*News single styles end */
-/* Content styles end */
+/* Project Single styles start */
+.project-single .drive-title-holder{
+    background-image: url(../images/publications-title-image.jpg)
+}
+.project-single {
+    background-color:#0E0E0E;
+}
+.project-single .drive-title-holder {
+    font-weight: 500;
+    font-size: 60px;
+}
+.project-single .project-single-text-holder p{ 
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.project-single .basic-info{
+    background-color:#F15A29;
+    padding:55px 50px 55px 50px;
+}
+.project-single .basic-info .basic-info-text-holder{
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+    color: #FFFFFF;
 
+}
+.project-single .basic-info-hed{
+    font-size:19px;
+}
+.project-single .gallery img {
+    width:100%;
+}
+.project-single .publications-list-section{
+    background-color:#0E0E0E;
+}
+.project-single .videos-section {
+    background-color:#0E0E0E;
+}
+/* Project Single styles end */
+/* Content styles end */
 /*Footer styles start*/
 footer{
     background-color:#151515;
