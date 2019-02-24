@@ -77,18 +77,27 @@ nav.drive-nav.scrolled-nav{
     overflow: hidden;
     padding: 10px 0;
 }
-.section-title h1::before,.section-title h1::after {
-    position: absolute;
-    top: 51%;
+.section-title h1 {
     overflow: hidden;
-    width: 50%;
+    text-align: center;
+}
+.section-title h1:before,
+.section-title h1:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
     height: 1px;
-    content: '\a0';
-    background-color: white;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
 }
 .section-title h1:before {
+    right: 0.5em;
     margin-left: -50%;
-    text-align: right;
+}
+.section-title h1:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
 /* Section title styles end */
 .content-wrapper{
@@ -666,10 +675,20 @@ canvas{
 .about-us .drive-title-holder {
     background-image:url(../images/talks-title-image.jpg);
 }
-
-
 /*About us people styles end */
 
+/*News single styles start */
+.news-single {
+    background-color:#0E0E0E;
+}
+.news-single .news-single-image-holder{
+    margin-top:90px;
+}
+.news-single .news-single-image-holder img {
+    width:100%;
+}
+
+/*News single styles end */
 /* Content styles end */
 
 /*Footer styles start*/
