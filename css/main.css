@@ -687,7 +687,17 @@ canvas{
 .news-single .news-single-image-holder img {
     width:100%;
 }
-
+.news-single .section-title h1::after {
+    top: -72px;
+    left:2.5em;
+}
+.news-single .single-text-holder{
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom:119px;
+}
 /*News single styles end */
 /* Content styles end */
 
