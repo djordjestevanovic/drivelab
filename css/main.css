@@ -740,6 +740,21 @@ canvas{
 .project-single .videos-section {
     background-color:#0E0E0E;
 }
+.project-single .projects-section{
+    background-color:#0E0E0E;
+}
+.project-single .drive-post-info {
+    background-color: #0E0E0E;
+    padding: 43px 0 0 0;
+}
+.project-single .drive-post-info h4 {
+    color:#fff;
+}
+.project-single .drive-post-info p {
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
 /* Project Single styles end */
 /* Content styles end */
 /*Footer styles start*/
