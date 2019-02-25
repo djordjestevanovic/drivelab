@@ -752,8 +752,11 @@ canvas{
 }
 .project-single .drive-post-info p {
     color: rgba(255, 255, 255, 0.5);
-
 }
+.project-single .publications-list-section .publication-item-info p{
+    margin-bottom:0;
+}
+
 
 /* Project Single styles end */
 /* Content styles end */
