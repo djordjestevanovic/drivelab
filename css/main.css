@@ -679,7 +679,7 @@ canvas{
 /*About us people styles end */
 
 /*News single styles start */
-.news-single {
+.news-single .content-wrapper {
     background-color:#0E0E0E;
 }
 .news-single .news-single-image-holder{
@@ -756,9 +756,30 @@ canvas{
 .project-single .publications-list-section .publication-item-info p{
     margin-bottom:0;
 }
-
-
 /* Project Single styles end */
+/* About Us Single styles start */
+.about-us-single .content-wrapper{
+    background-color:#0E0E0E;
+}
+.about-us-single .contact-section-holder{
+    padding-top:122px;
+}
+.about-us-single .contact-section-holder h1{
+    font-weight: bold;
+    line-height: normal;
+    font-size: 48px;
+    color: #F15A29;
+}
+.about-us-single .contact-section-holder .titles-section p{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.about-us-single .contact-section-holder .titles-section p:first-child{
+    margin-bottom:0;
+}
+
+/* About Us Single styles end */
 /* Content styles end */
 /*Footer styles start*/
 footer{
