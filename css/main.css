@@ -830,7 +830,43 @@ canvas{
 .about-us-single .course-section.page-list{
     padding-top:10px;
 }
-
+.about-us-single .education-degree-section .row{
+    margin-top:55px;
+}
+.about-us-single .education-degree-section p.university{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.about-us-single .education-degree-section h4 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    font-size: 48px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+.about-us-single .education-degree-section p.aditional-description{
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top:33px;
+}
+.about-us-single .education-degree-section p.position-name{
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 24px;
+    color: #F15A29;
+    margin-top:50px;
+}
+.about-us-single .publications-list-section{
+    background-color:#0E0E0E;
+}
 /* About Us Single styles end */
 /* Content styles end */
 /*Footer styles start*/
