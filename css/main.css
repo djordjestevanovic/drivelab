@@ -770,13 +770,65 @@ canvas{
     font-size: 48px;
     color: #F15A29;
 }
-.about-us-single .contact-section-holder .titles-section p{
+.about-us-single .contact-section-holder p{
     font-weight: 500;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
 .about-us-single .contact-section-holder .titles-section p:first-child{
     margin-bottom:0;
+}
+.about-us-single .contact-section-holder .hr-separator{
+    height:1px;
+    width:65px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top:40px;
+}
+.about-us-single .contact-section-holder .about p{
+    margin-top:33px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.about-us-single .contact-section-holder .about p{
+    color: rgba(255, 255, 255, 0.75);
+}
+.about-us-single .contact-section-holder .drive-button {
+    margin-top:55px;
+}
+.about-us-single .contact-section-holder .contact-info {
+    margin-top:61px;
+
+}
+.about-us-single .contact-section-holder .contact-info i{
+    color:#fff;
+    font-size:24px;
+}
+.about-us-single .contact-section-holder .contact-info a, .about-us-single .contact-section-holder .contact-info p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-left:16px;
+}
+.about-us-single .contact-section-holder .contact-info .second {
+    margin-top:26px;
+}
+.about-us-single .course-section .course-holder{
+    border: 2px solid #FFFFFF;
+    padding:26px 18px 40px 38px;
+}
+.about-us-single .course-section .course-holder h4 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top:26px;
+    line-height:55px;
+}
+.about-us-single .course-section .course-holder p{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top:16px;
+}
+.about-us-single .course-section.page-list{
+    padding-top:10px;
 }
 
 /* About Us Single styles end */
