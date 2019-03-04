@@ -40,10 +40,6 @@ h1 {
   padding: 15px 30px;
 }
 
-.drive-button.orange {
-
-}
-
 .drive-button span {
   display: inline-block;;
 }
@@ -108,7 +104,7 @@ nav.drive-nav.scrolled-nav {
 .section-title h1:before {
   content: '';
   height: 1px;
-  width: 38%;
+  width: 100%;
   background: #fff;
 }
 
@@ -1134,7 +1130,7 @@ footer nav.footer-nav ul:after {
   width: 75px;
   height: 72px;
   position: absolute;
-  right: -100px;
+  right: -150px;
   top: 50%;
   transform: translate(0, -50%);
   background: url('../images/logo-paw.png') no-repeat;

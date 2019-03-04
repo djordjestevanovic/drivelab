@@ -1,5 +1,10 @@
 /*Rsponsive styles for the canvas section*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width:385px) {
+  footer .footer-social-network-section .logo-clemson-holder:after {
+    display:none;
+  }
+}
+@media screen and (max-width: 481px) {
   .canvas-section {
     left: 40px;
     top: 40px;
@@ -34,44 +39,6 @@
     display: none;
   }
 
-  /* Footer responsive styles start */
-  /*footer .footer-info-section {*/
-  /*margin: 0;*/
-  /*}*/
-  /*footer .footer-info-section .footer-info-holder {*/
-  /*margin: 40px;*/
-  /*}*/
-  /*footer .footer-info-section img {*/
-  /*width: 80%;*/
-  /*}*/
-  /*footer nav.footer-nav::after {*/
-  /*display: none;*/
-  /*}*/
-  /*footer nav.footer-nav {*/
-  /*display: none;*/
-  /*}*/
-  /*footer .footer-info-section .explore-more {*/
-  /*margin-bottom: 10px;*/
-  /*}*/
-  /*footer .footer-form-section {*/
-  /*margin-top: 10px;*/
-  /*}*/
-  /*footer .footer-social-network-section {*/
-  /*margin-top: 10px;*/
-  /*}*/
-  /*footer .footer-social-network-section .logo-clemson-holder:after {*/
-  /*display: none;*/
-  /*}*/
-  /*footer .footer-social-network-section {*/
-  /*right: 0;*/
-  /*}*/
-  /*footer .footer-social-network-section img {*/
-  /*width: 80%;*/
-  /*}*/
-  /*footer .footer-info-section::after {*/
-  /*display: none;*/
-  /*}*/
-  /* Footer responsive styles end */
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
@@ -90,24 +57,28 @@
   .canvas-section {
     left: 151px
   }
+  footer nav.footer-nav ul:after {
+    right:-130px;
+  }
+
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   footer nav.footer-nav ul:after {
     display: none;
   }
+  footer nav.footer-nav {
+    border-right: none;
+  }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   footer nav.footer-nav {
     margin-bottom: 0;
   }
 
   footer .footer-info-section:after {
-    position: static;
-    height: 1px;
-    width: 100%;
-    transform: translate3d(0, 0, 0);
+    display:none;
   }
 
   footer .footer-social-network-section {
@@ -119,6 +90,12 @@
   footer .footer-info-section, footer .footer-info-section-bottom {
     text-align: center;
     padding: 0;
+  }
+  footer .footer-form-section {
+    margin-top: 0px;
+  } 
+  footer .footer-info-section .contact-info-with-icon {
+    justify-content: center;
   }
 }
 
@@ -169,6 +146,9 @@
 @media screen and (max-width: 1200px) {
   footer .footer-info-section, footer .footer-info-section-bottom {
     margin-left: 0;
+  }
+  footer nav.footer-nav ul:after {
+    right: -98px;
   }
 }
 
