@@ -603,12 +603,16 @@ canvas {
   background-color: #0E0E0E;
 }
 
-.publications .publications-section {
+/* .publications .publications-section {
   padding-top: 66px;
+} */
+.publications .page-list{
+  padding-top:0;
 }
 
 .publications .section-title {
   margin-top: 0;
+  padding: 110px 0;
 }
 
 .publications .publications-section .drive-button {

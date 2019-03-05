@@ -4,98 +4,6 @@
     display:none;
   }
 }
-@media screen and (max-width: 481px) {
-  .canvas-section {
-    left: 40px;
-    top: 40px;
-  }
-
-  .canvas-section h1 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .section-title h1 {
-    font-size: 40px;
-  }
-
-  .publications-talks-section .rectangle h3 {
-    width: 100%;
-  }
-
-  .publications-talks-section .rectangle {
-    padding: 85px 47px 20px;
-  }
-
-  footer nav.footer-nav ul {
-    display: block;
-  }
-
-  footer nav.footer-nav ul li {
-    display: block;
-  }
-
-  footer nav.footer-nav ul li:after {
-    display: none;
-  }
-  .section-title{
-    padding-top: 25px;
-    padding-bottom:25px;
-  }
-  .about-us-section p{
-    text-align:center;
-  }
-  .about-us-section .xyz-circle{
-    margin-top:20px;
-    margin-bottom:20px;
-  }
-  .about-us-section .see-more-row{
-    text-align:center;
-  }
-  .about-us-section .see-more-row .drive-button {
-    margin: 35px 0 60px 0;
-  }
-  .education-section .drive-button {
-    margin:50px 0;
-  }
-  .about-us .about-us-title h1 {
-    font-size:40px;
-    padding-top: 40px;  
-  }
-  .about-us h2.twopar-title{
-    font-size:40px;
-  }
-  .about-us .about-us-background {
-    height:calc(100vh - 120px);
-  }
-  .about-us .about-us-section-twopar .see-more-news .drive-button{
-    margin:50px 0;
-  }
-  .about-us .about-us-section-twopar {
-    padding:30px 0 0 0;
-  }
-  .about-us .people-info-holder {
-    text-align:center;
-  }
-  .about-us .see-more-news .drive-button{
-    margin:0 0 30px 0;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 1024px) {
-  .canvas-section {
-    left: 60px;
-    top: 100px;
-  }
-
-  .canvas-section h1 {
-    font-size: 50px;
-    line-height: 50px;
-  }
-  .about-us-section .justify-content-lg-end{
-    justify-content: space-around;
-  }
-}
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
   .canvas-section {
@@ -180,7 +88,12 @@
   .page-list {
     padding-top: 20px;
   }
-
+  .publications .publications-section{
+    padding-top:0;
+  }
+  .publications .section-title{
+    padding:50px 0;
+  }
   /* title image responsive styles end  */
 }
 
@@ -196,6 +109,102 @@
   }
   footer nav.footer-nav ul:after {
     right: -98px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .canvas-section {
+    left: 40px;
+    top: 40px;
+  }
+
+  .canvas-section h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .section-title h1 {
+    font-size: 40px;
+  }
+
+  .publications-talks-section .rectangle h3 {
+    width: 100%;
+  }
+
+  .publications-talks-section .rectangle {
+    padding: 85px 47px 20px;
+  }
+
+  footer nav.footer-nav ul {
+    display: block;
+  }
+
+  footer nav.footer-nav ul li {
+    display: block;
+  }
+
+  footer nav.footer-nav ul li:after {
+    display: none;
+  }
+  .section-title{
+    padding-top: 25px;
+    padding-bottom:25px;
+  }
+  .about-us-section p{
+    text-align:center;
+  }
+  .about-us-section .xyz-circle{
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .about-us-section .see-more-row{
+    text-align:center;
+  }
+  .about-us-section .see-more-row .drive-button {
+    margin: 35px 0 60px 0;
+  }
+  .education-section .drive-button {
+    margin:50px 0;
+  }
+  .about-us .about-us-title h1 {
+    font-size:40px;
+    padding-top: 40px;  
+  }
+  .about-us h2.twopar-title{
+    font-size:40px;
+  }
+  .about-us .about-us-background {
+    height:calc(100vh - 120px);
+  }
+  .about-us .about-us-section-twopar .see-more-news .drive-button{
+    margin:50px 0;
+  }
+  .about-us .about-us-section-twopar {
+    padding:30px 0 0 0;
+  }
+  .about-us .people-info-holder {
+    text-align:center;
+  }
+  .about-us .see-more-news .drive-button{
+    margin:0 0 30px 0;
+  }
+  .publications .section-title{
+    padding:30px 0;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .canvas-section {
+    left: 60px;
+    top: 100px;
+  }
+
+  .canvas-section h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .about-us-section .justify-content-lg-end{
+    justify-content: space-around;
   }
 }
 
