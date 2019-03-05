@@ -58,7 +58,28 @@
   .education-section .drive-button {
     margin:50px 0;
   }
-  
+  .about-us .about-us-title h1 {
+    font-size:40px;
+    padding-top: 40px;  
+  }
+  .about-us h2.twopar-title{
+    font-size:40px;
+  }
+  .about-us .about-us-background {
+    height:calc(100vh - 120px);
+  }
+  .about-us .about-us-section-twopar .see-more-news .drive-button{
+    margin:50px 0;
+  }
+  .about-us .about-us-section-twopar {
+    padding:30px 0 0 0;
+  }
+  .about-us .people-info-holder {
+    text-align:center;
+  }
+  .about-us .see-more-news .drive-button{
+    margin:0 0 30px 0;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
