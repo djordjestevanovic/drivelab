@@ -748,6 +748,9 @@ canvas {
 .about-us .about-us-section-twopar .see-more-news .drive-button {
   background-color: #F15A29;
 }
+.about-us.about-us-people .people-holder{
+  margin-bottom:80px;
+}
 
 .about-us .people-holder .people-image img {
   width: 100%;
@@ -878,6 +881,9 @@ canvas {
 
 .project-single .publications-list-section {
   background-color: #0E0E0E;
+}
+.project-single .publication-list-item{
+  margin-bottom:30px;
 }
 
 .project-single .videos-section {

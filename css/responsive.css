@@ -97,6 +97,21 @@
   .faq .drive-accordion .drive-card .drive-card-text-holder{
     padding: 50px 30px;
   }
+  .drive-post{
+    margin-bottom:15px;
+  }
+  .videos-section .video-item{
+    margin-bottom:20px;
+  }
+  .projects .drive-post-info {
+    text-align: center;
+  }
+  .projects .drive-post-info {
+    padding: 35px 0 12px 0;
+  }
+  .news-single .section-title h1{
+    display:block;
+  }
   /* title image responsive styles end  */
 }
 
@@ -196,6 +211,21 @@
   }
   .faq .faq-section {
     padding:0;
+  }
+  .news-single .section-title h1 span{
+    margin:0;
+  }
+  .news-single .news-single-text-holder{
+    margin-bottom:50px;
+  }
+  .news-single .news-single-image-holder{
+    margin-top:0;
+  }
+  .about-us.about-us-people .people-holder{
+    margin-bottom:30px;
+  }
+  .project-single .drive-page-title.entry-title {
+    font-size:1.5rem;
   }
 }
 
