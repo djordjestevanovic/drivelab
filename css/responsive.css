@@ -94,6 +94,9 @@
   .publications .section-title{
     padding:50px 0;
   }
+  .faq .drive-accordion .drive-card .drive-card-text-holder{
+    padding: 50px 30px;
+  }
   /* title image responsive styles end  */
 }
 
@@ -190,6 +193,9 @@
   }
   .publications .section-title{
     padding:30px 0;
+  }
+  .faq .faq-section {
+    padding:0;
   }
 }
 
