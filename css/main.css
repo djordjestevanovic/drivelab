@@ -159,7 +159,7 @@ canvas {
 /* Standard post styles start */
 .drive-post {
   background: #FFFFFF;
-  margin-bottom: 15px;
+  margin-bottom: 55px;
 }
 
 .drive-post-image {
@@ -342,7 +342,7 @@ canvas {
 
 .videos-section .video-item {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 .videos-section .video-item img {
