@@ -1045,6 +1045,13 @@ canvas {
   background-color: #0E0E0E;
 }
 
+.about-us-single .course-holder{
+  margin-bottom:30px;
+}
+.about-us-single .degree-holder{
+  margin-bottom:30px;
+}
+
 /* About Us Single styles end */
 /* Content styles end */
 /*Footer styles start*/

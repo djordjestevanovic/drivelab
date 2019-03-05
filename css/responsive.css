@@ -112,6 +112,12 @@
   .news-single .section-title h1{
     display:block;
   }
+  .about-us-single .contact-section-holder{
+    padding-top:50px;
+  }
+  .about-us-single .contact-section-holder .contact-info a{
+    font-size:11px;
+  }
   /* title image responsive styles end  */
 }
 
@@ -226,6 +232,29 @@
   }
   .project-single .drive-page-title.entry-title {
     font-size:1.5rem;
+  }
+  .about-us-single .contact-section-holder{
+    padding-top:0;
+  }
+  .about-us-single .publications-list-section .publication-item-info p {
+    margin-bottom:10px;
+  }
+  .about-us-single .contact-section-holder img{
+    max-width:60%;
+    display:block;
+    margin:0 auto;
+  }
+  .about-us-single .abou-us-single-holder{
+    text-align:center;
+  }
+  .about-us-single .hr-separator{
+    display:none;
+  }
+  .about-us-single .titles-section{
+    margin-bottom:65px;
+  }
+  .about-us-single .abou-us-single-holder h1 {
+    margin-top: 20px;
   }
 }
 
