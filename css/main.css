@@ -47,6 +47,9 @@ h1 {
 .drive-button:hover {
   color: #000;
 }
+.drive-button.button-hover-orange:hover{
+  color:#F15A29;
+}
 
 /* General styles end */
 
@@ -118,6 +121,9 @@ nav.drive-nav.scrolled-nav {
   position: relative;
   margin-top: 122px;
 }
+.main-section-holder{
+  position: relative;
+}
 
 canvas {
   background-color: #151515;
@@ -130,8 +136,9 @@ canvas {
 .canvas-section {
   position: absolute;
   z-index: 2;
+  top: 50%;
+  transform:translateY(-50%);
   left: 408px;
-  top: 135px;
 }
 
 .canvas-section h1 {
@@ -512,6 +519,9 @@ canvas {
 
 .drive-page-title.entry-title {
   text-transform: capitalize;
+  font-size:3.5rem;
+  font-weight:600;
+  line-height: 1.2;
 }
 
 .page-list {
@@ -1001,9 +1011,8 @@ canvas {
 .about-us-single .course-section.page-list {
   padding-top: 10px;
 }
-
-.about-us-single .education-degree-section .row {
-  margin-top: 55px;
+.about-us-single .university-degree-holder{
+  margin-bottom:55px;
 }
 
 .about-us-single .education-degree-section p.university {
@@ -1014,6 +1023,7 @@ canvas {
   color: #FFFFFF;
   opacity: 0.5;
 }
+
 
 .about-us-single .education-degree-section h4 {
   font-style: normal;
