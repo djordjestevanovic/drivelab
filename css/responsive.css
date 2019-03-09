@@ -12,7 +12,6 @@
   footer nav.footer-nav ul:after {
     right:-130px;
   }
-
 }
 
 @media screen and (max-width: 700px) {
@@ -22,6 +21,7 @@
   footer nav.footer-nav {
     border-right: none;
   }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -117,6 +117,11 @@
   }
   .about-us-single .contact-section-holder .contact-info a{
     font-size:11px;
+  }
+  .drive-page-title.entry-title {
+    font-size:2.5rem;
+    font-weight: normal;
+    line-height: 1;
   }
   /* title image responsive styles end  */
 }
@@ -231,6 +236,7 @@
   }
   .project-single .drive-page-title.entry-title {
     font-size:1.5rem;
+    margin-top: 5px;
   }
   .about-us-single .contact-section-holder{
     padding-top:0;
