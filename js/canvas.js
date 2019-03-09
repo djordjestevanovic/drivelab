@@ -264,7 +264,7 @@ canvas.addEventListener('mouseleave', function(){
 canvas.addEventListener('mousemove', function(e){
     var e = e || window.event;
     mouse_ball.x = e.pageX;
-    mouse_ball.y = e.pageY;
+    mouse_ball.y = e.pageY - 122;
     // console.log(mouse_ball);
 });
 
