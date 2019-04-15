@@ -1077,23 +1077,6 @@ footer .footer-info-section {
 
 }
 
-footer .footer-info-section::after {
-  background-color: rgba(255, 255, 255, 0.75);
-  content: "";
-  display: block;
-  height: 440px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: background-color .2s ease-in-out;
-  -moz-transition: background-color .2s ease-in-out;
-  transition: background-color .2s ease-in-out;
-  width: 1px;
-}
-
 footer .footer-info-section img {
   margin-bottom: 47px;
 }
@@ -1146,7 +1129,7 @@ footer .footer-info-section-bottom .explore-more {
 footer nav.footer-nav {
   position: relative;
   display: inline-block;
-  margin-bottom: 165px;
+  margin-bottom:63px;
   padding: 20px 0;
   border-right: 1px solid #fff;
 }
@@ -1277,25 +1260,35 @@ footer .footer-social-network-section img {
 footer .footer-social-network-section .social-icon-holder {
   margin-left: 20px;
 }
-
+footer .clemson-footer-info {
+  margin-top:83px;
+}
+footer .clemson-footer-info p{
+  color: rgba(255, 255, 255, 0.75);
+}
+footer .clemson-footer-info p.clemson-mail{
+  font-size: 24px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-top:25px;
+}
 /*Footer styles end*/
 
 /* Research section styles start */
 .home .research-section{ 
-  background-image: url(../images/research.png);
+  background-image: url(../images/research-section.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .home .research-section .research-round-image-holder{
-  margin-top:60px;
+  margin: 60px auto;
   max-width:180px;
 }
 .home .research-section .research-round-image-holder img{
   border-radius:50%;
   border: 3px solid #F15A29;
 }
-/* Research section styles end */
 .home .research-section h1{
   font-weight: 600;
   font-size: 60px;
@@ -1324,3 +1317,80 @@ footer .footer-social-network-section .social-icon-holder {
   margin-right:20px;
   margin-bottom:50px;
  }
+/* Research section styles end */
+
+/* Clemson unviersity styles start */
+.home .clemson-university-section{ 
+  background-image: url(../images/clemson-university.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home .clemson-university-section .research-round-image-holder{
+  max-width:250px;
+  margin: 0 auto;
+}
+.home .clemson-university-section .research-round-image-holder img{
+  border-radius:50%;
+}
+.home .clemson-university-section h1{
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  padding-top:71px;
+}
+.home .clemson-university-section p{
+  color:#fff;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top:33px;
+ }
+
+ .home .clemson-university-section .drive-button{
+   margin-top:40px;
+   margin-bottom:50px;
+ }
+
+ .home .clemson-university-section .breakthrough {
+  font-weight: 600;
+  text-align:right;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  margin-right:20px;
+  margin-bottom:50px;
+ }
+
+ .home .clemson-university-section .research-round {
+   background-color:#F15A29;
+   width:150px;
+   height:150px;
+   border-radius:50%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin:0 auto;
+   position: relative;
+   margin-top:-10px;
+ }
+ .home .clemson-university-section .research-round p{
+  margin-top:16px;
+ }
+ .home .clemson-university-section .research-round p span{
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 40px;
+  text-align: center;
+}
+.home .clemson-university-section .drive-button {
+  margin:110px 0 150px 0;
+  padding: 15px 20px;
+}
+
+.jumbotron {
+  padding:0 !important;
+  margin:0 !important;
+}
+/* Clemson unviersity styles end */

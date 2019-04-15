@@ -55,7 +55,32 @@
   .news-single .section-title h1 span{
     white-space: normal;
    }
-   
+  .home .research-section .research-info-holder{
+    text-align:center;
+  }
+  .home .research-section .research-round-image-holder{
+    margin:60px auto;
+  }
+  .home .clemson-university-section h1 {
+    text-align:center;
+  }
+  .home .clemson-university-section .research-info-holder {
+    text-align:center;
+  }
+  .home .clemson-university-section .drive-button {
+    margin:20px 0;
+  }
+  .research-info-holder{
+    padding:0 30px;
+  }
+  .clemson-university-section .clemson-title-holder h1{
+    padding-top:30px;
+  }
+  footer .clemson-footer-info{
+    margin-top:15px;
+    padding:0 5px;
+    text-align:center;
+  }
 }
 
 @media screen and (max-width: 1024px) {
