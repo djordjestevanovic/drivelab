@@ -1279,3 +1279,48 @@ footer .footer-social-network-section .social-icon-holder {
 }
 
 /*Footer styles end*/
+
+/* Research section styles start */
+.home .research-section{ 
+  background-image: url(../images/research.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home .research-section .research-round-image-holder{
+  margin-top:60px;
+  max-width:180px;
+}
+.home .research-section .research-round-image-holder img{
+  border-radius:50%;
+  border: 3px solid #F15A29;
+}
+/* Research section styles end */
+.home .research-section h1{
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  margin-top:31px;
+}
+.home .research-section p{
+  color:#fff;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top:33px;
+ }
+
+ .home .research-section .drive-button{
+   margin-top:40px;
+   margin-bottom:50px;
+ }
+
+ .home .research-section .breakthrough {
+  font-weight: 600;
+  text-align:right;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  margin-right:20px;
+  margin-bottom:50px;
+ }
